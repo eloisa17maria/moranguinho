@@ -1,0 +1,10 @@
+<script> 
+           vetor.lenght = 10
+           //alert("Funciona?" + vetor.length)
+           //alert(vetor[vetor.lenght-11])
+           vetor[19] = 'teste'
+           alert ("Sério?" + vetor.lenght)
+
+</script> 
+
+
