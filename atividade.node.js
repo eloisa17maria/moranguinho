@@ -62,7 +62,7 @@ app.get('/', (request, response) => {
     response.send('Envie os parâmetros n1 e n2 para a rota /divisao')
 })
 
-app.get('/multiplicacao', (req, res) => {
+app.get('/divisao', (req, res) => {
     console.log("n1=" + req.query.n1)
     console.log("n2=" + req.query.n2)
     result = parseFloat(req.query.n1) / parseFloat(req.query.n2)
